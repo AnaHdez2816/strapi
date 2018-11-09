@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/juzgadomenores",
+      "handler": "Juzgadomenores.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/juzgadomenores/count",
+      "handler": "Juzgadomenores.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/juzgadomenores/:_id",
+      "handler": "Juzgadomenores.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/juzgadomenores",
+      "handler": "Juzgadomenores.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/juzgadomenores/:_id",
+      "handler": "Juzgadomenores.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/juzgadomenores/:_id",
+      "handler": "Juzgadomenores.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

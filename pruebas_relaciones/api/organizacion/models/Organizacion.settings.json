@@ -1,0 +1,131 @@
+{
+  "connection": "default",
+  "collectionName": "organizacion",
+  "info": {
+    "name": "organizacion",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre ": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "siglas": {
+      "default": "",
+      "type": "string"
+    },
+    "departamento": {
+      "model": "departamento"
+    },
+    "municipio": {
+      "model": "municipio"
+    },
+    "juzgadomenores": {
+      "collection": "juzgadomenores",
+      "via": "organizacion"
+    },
+    "juzgadoejecucion": {
+      "model": "juzgadoejecucion"
+    },
+    "naturaleza": {
+      "model": "naturaleza"
+    },
+    "areastrabajos": {
+      "collection": "areastrabajo",
+      "via": "organizacion"
+    },
+    "inscrita_conna": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Si",
+        " No"
+      ]
+    },
+    "ultimo_anio_responabilidad_social": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Si",
+        " No"
+      ]
+    },
+    "ultimo_anio_vulnerabilidad_social": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Si",
+        " No"
+      ]
+    },
+    "tiene_programa_apoyo": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Existe disposición de trabajar con NNAJCL con medidas en medio abierto",
+        " Tiene un programa de apoyo para NNAJCL con medidas en medio abierto",
+        " Brinda una colaboración puntual para NNAJCL con medidas en medio abierto\n"
+      ]
+    },
+    "servicio": {
+      "collection": "tiposervicio",
+      "via": "organizacion"
+    },
+    "procesoadminsion": {
+      "model": "procesoadminsion"
+    },
+    "area_para_servicios": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "estado_servicios": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Activo",
+        " Inactivo"
+      ]
+    },
+    "municipios": {
+      "collection": "municipio",
+      "via": "organizacion"
+    },
+    "principales_problemas": {
+      "model": "problema",
+      "via": "organizacion"
+    },
+    "direccion": {
+      "default": "",
+      "type": "text"
+    },
+    "telefono": {
+      "default": "",
+      "type": "string"
+    },
+    "email": {
+      "default": "",
+      "type": "string"
+    },
+    "url": {
+      "default": "",
+      "type": "string"
+    },
+    "facebook": {
+      "default": "",
+      "type": "string"
+    },
+    "twitter": {
+      "default": "",
+      "type": "string"
+    },
+    "latlng": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}

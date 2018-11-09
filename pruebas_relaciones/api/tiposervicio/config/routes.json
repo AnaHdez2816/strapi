@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tiposervicios",
+      "handler": "Tiposervicio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiposervicios/count",
+      "handler": "Tiposervicio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiposervicios/:_id",
+      "handler": "Tiposervicio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tiposervicios",
+      "handler": "Tiposervicio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tiposervicios/:_id",
+      "handler": "Tiposervicio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tiposervicios/:_id",
+      "handler": "Tiposervicio.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

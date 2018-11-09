@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/naturalezas",
+      "handler": "Naturaleza.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/naturalezas/count",
+      "handler": "Naturaleza.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/naturalezas/:_id",
+      "handler": "Naturaleza.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/naturalezas",
+      "handler": "Naturaleza.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/naturalezas/:_id",
+      "handler": "Naturaleza.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/naturalezas/:_id",
+      "handler": "Naturaleza.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

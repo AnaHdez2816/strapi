@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/procesoadminsions",
+      "handler": "Procesoadminsion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/procesoadminsions/count",
+      "handler": "Procesoadminsion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/procesoadminsions/:_id",
+      "handler": "Procesoadminsion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/procesoadminsions",
+      "handler": "Procesoadminsion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/procesoadminsions/:_id",
+      "handler": "Procesoadminsion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/procesoadminsions/:_id",
+      "handler": "Procesoadminsion.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

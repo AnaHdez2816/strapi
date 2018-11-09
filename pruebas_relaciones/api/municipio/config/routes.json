@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/municipios",
+      "handler": "Municipio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/municipios/count",
+      "handler": "Municipio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/municipios/:_id",
+      "handler": "Municipio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/municipios",
+      "handler": "Municipio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/municipios/:_id",
+      "handler": "Municipio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/municipios/:_id",
+      "handler": "Municipio.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

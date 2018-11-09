@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "juzgadoejecucion",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

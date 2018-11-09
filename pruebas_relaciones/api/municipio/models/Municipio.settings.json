@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "municipio",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "default": "",
+      "type": "string"
+    },
+    "departamento": {
+      "default": "",
+      "type": "string"
+    },
+    "organizacion": {
+      "model": "organizacion",
+      "via": "municipios"
+    }
+  }
+}

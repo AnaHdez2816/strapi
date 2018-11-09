@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/juzgadoejecucions",
+      "handler": "Juzgadoejecucion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/juzgadoejecucions/count",
+      "handler": "Juzgadoejecucion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/juzgadoejecucions/:_id",
+      "handler": "Juzgadoejecucion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/juzgadoejecucions",
+      "handler": "Juzgadoejecucion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/juzgadoejecucions/:_id",
+      "handler": "Juzgadoejecucion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/juzgadoejecucions/:_id",
+      "handler": "Juzgadoejecucion.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
