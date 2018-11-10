@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5be6733b249bad1ae862064a"},"nombre":"ADESCO","createdAt":{"$date":"2018-11-10T05:57:15.933Z"},"updatedAt":{"$date":"2018-11-10T05:57:16.167Z"},"__v":0,"id":{"$oid":"5be6733b249bad1ae862064a"}}
+{"_id":{"$oid":"5be67343249bad1ae862064b"},"nombre":"Empresa privada","createdAt":{"$date":"2018-11-10T05:57:23.113Z"},"updatedAt":{"$date":"2018-11-10T05:57:23.117Z"},"__v":0,"id":{"$oid":"5be67343249bad1ae862064b"}}
+{"_id":{"$oid":"5be6734b249bad1ae862064c"},"nombre":"Gobierno de El Salvador","createdAt":{"$date":"2018-11-10T05:57:31.347Z"},"updatedAt":{"$date":"2018-11-10T05:57:31.350Z"},"__v":0,"id":{"$oid":"5be6734b249bad1ae862064c"}}
+{"_id":{"$oid":"5be67352249bad1ae862064d"},"nombre":"Gobierno local","createdAt":{"$date":"2018-11-10T05:57:38.563Z"},"updatedAt":{"$date":"2018-11-10T05:57:38.565Z"},"__v":0,"id":{"$oid":"5be67352249bad1ae862064d"}}
+{"_id":{"$oid":"5be67359249bad1ae862064e"},"nombre":"Organización basada en la fe","createdAt":{"$date":"2018-11-10T05:57:45.222Z"},"updatedAt":{"$date":"2018-11-10T05:57:45.226Z"},"__v":0,"id":{"$oid":"5be67359249bad1ae862064e"}}
+{"_id":{"$oid":"5be67362249bad1ae862064f"},"nombre":"Organización comunitaria","createdAt":{"$date":"2018-11-10T05:57:54.539Z"},"updatedAt":{"$date":"2018-11-10T05:57:54.543Z"},"__v":0,"id":{"$oid":"5be67362249bad1ae862064f"}}
+{"_id":{"$oid":"5be6736b249bad1ae8620650"},"nombre":"Organización no gubernamental","createdAt":{"$date":"2018-11-10T05:58:03.073Z"},"updatedAt":{"$date":"2018-11-10T05:58:03.078Z"},"__v":0,"id":{"$oid":"5be6736b249bad1ae8620650"}}
