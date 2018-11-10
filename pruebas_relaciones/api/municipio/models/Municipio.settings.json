@@ -19,7 +19,7 @@
     },
     "organizacion": {
       "model": "organizacion",
-      "via": "municipios"
+      "via": "lugares_procedencia"
     }
   }
 }

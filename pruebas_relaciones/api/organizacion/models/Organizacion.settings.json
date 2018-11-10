@@ -91,12 +91,12 @@
         " Inactivo"
       ]
     },
-    "municipios": {
+    "lugares_procedencia": {
       "collection": "municipio",
       "via": "organizacion"
     },
     "principales_problemas": {
-      "model": "problema",
+      "collection": "problema",
       "via": "organizacion"
     },
     "direccion": {
